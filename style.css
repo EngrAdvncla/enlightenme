@@ -1,0 +1,188 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: monospace;
+}
+.row
+{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.main-nav li
+{
+    display: inline-block;
+}
+
+.main-nav li.active a
+{
+    border: 1px solid white;
+    
+}
+
+.main-nav li a:hover
+{
+    background-color: #747474;
+    border: 1px solid white;
+}
+
+
+.main-nav li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+.hero
+{
+    position: absolute;
+    width: 1200px;
+    margin-left: 0px;
+    margin-top: 0px;
+    
+}
+
+
+h1
+{
+    font-family: courier;
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 80px;
+    animation: text 3s 1;
+}
+
+@keyframes text{
+    30%{
+        letter-spacing: 4px;
+    }
+    85%{
+        letter-spacing: 1px;
+    }
+}
+
+h2
+{
+    font-family: courier;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 60px;
+ }   
+header
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(Torch.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.button
+{
+    margin-top: 30px;
+    margin-left: 440px;
+}
+
+.btn
+{
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.btn-one
+{
+    background-color: #FF652F;
+    font-family: "Roboto", sans-serif;
+}
+
+.btn-two
+{
+    font-family: "Roboto", sans-serif;
+}
+
+
+.btn-two:hover
+{
+    background-color: #FF652F;
+    transition: all 0.5s ease-in;
+
+}
+
+.logo img
+{
+    width: 100px;
+    height: auto;
+    animation: logo-spin infinite 4s linear;
+}
+
+@keyframes logo-spin{
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+}
+
+.autumn{
+    background: url(Autumn1.png);
+    height: 100%;
+    width: 100%;
+    background-repeat: repeat;
+    animation: autumn 10s linear infinite;  
+}
+@keyframes autumn{
+    0%{
+        background-position: 50px 50px;
+    }
+    20%{
+        background-position: 100px 100px;
+    }
+    30%{
+        background-position: 150px 150px;
+    }
+    40%{
+        background-position: 200px 200px;
+    }
+    60%{
+        background-position: 250px 250px;
+    }
+    80%{
+        background-position: 300px 300px;
+    }
+    100%{
+        background-position: 350px 350px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
